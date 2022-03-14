@@ -1,0 +1,31 @@
+span {
+  background-color: yellow;
+}
+
+#senses {
+  text-decoration: underline;
+}
+
+.list {
+  list-style-type: upper-roman;
+}
+
+.image {
+  text-align: center;
+}
+
+img {
+  border: 6px solid orange;
+  width: 400px;
+  height: 350px;
+}
+
+.redbor {
+  text-align: center;
+  border: 2px solid red;
+  color: red;
+}
+
+.table {
+  border: 2px solid black;
+}
