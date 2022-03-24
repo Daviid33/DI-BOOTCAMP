@@ -110,8 +110,44 @@
 
 // Exercise 6
 
-// function hotelCost(){
+function hotelCost(){
+    let numberNights = 3;
+    let priceForAllNights = 140*numberNights;
+    return priceForAllNights;
+ 
+}
 
-// }
+function planeRideCost(){
+    let destination = "New York";
+    let priceDestination; 
+
+    switch(destination){
+        case "London":
+          priceDestination = 183;
+        break;
+        case "Paris":
+            priceDestination = 220;
+        break;
+        default:
+            priceDestination = 300;
+    }
+
+    return priceDestination;
+
+}
+
+
+function totalVacationCost (){
+    let costPlane = planeRideCost();
+    console.log(`the plane costs ${costPlane}`);
+
+    let costHotel = hotelCost();
+    console.log(`the hotel costs ${costHotel}`);
+    
+}
+
+totalVacationCost();
+
+
 
 
